@@ -1,0 +1,22 @@
+.main_steps_grid_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(17, 1fr);
+  width: 150px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.cell {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+}
