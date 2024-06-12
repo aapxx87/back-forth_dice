@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(17, 1fr);
   width: 150px;
-  height: 100vh;
+  height: 96vh;
   margin: 0 auto;
 }
 

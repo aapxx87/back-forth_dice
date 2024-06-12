@@ -26,8 +26,13 @@ body {
   width: 100px;
 }
 
-.input {
-  width: 100%;
+.display_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
 }
 
 .btn {
